@@ -115,7 +115,7 @@ import { BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs';
                               <Text fontSize={12}>{item.des}</Text>
                               <Flex justifyContent="space-between" alignContent="center">
                                <Rating rating={item.rating} numReviews={3} /> 
-                               <span className='shop' >shop now</span>
+                               <span className='shop' onClick={()=>navigate("/dress")}>shop now</span>
                                <Box fontSize="2xl" >
                                
 
